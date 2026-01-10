@@ -59,7 +59,7 @@ function App() {
     <p>Color is {color}</p>
     <button onClick={changeColor}>Change color</button>
 
-    <p>Name is {name}</p>
+    <p class="text-sky-500">Name is {name}</p>
     <button onClick={changeName}>Change Name</button>
     </div>
   );
