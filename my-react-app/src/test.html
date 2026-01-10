@@ -1,0 +1,19 @@
+import logo from ".logo.svg";
+import "./App.css";
+import {useEffect, useRef, useState} from "react";
+
+function App() {
+    const [count, setCount] = useState(0);
+    //const count = useRef(0);
+    const matks = useRef(0);
+    console.log(marks.current);
+
+    const [inputElem, setInputElem] = useState("blue");
+    const [value, setValue] = useState(0);
+    //console.log(count.current);
+    useEffect(() => {
+        setCount((count) => count + 1);
+        //count.current =count.current + 1;
+        //console.log(count.current);
+    })
+}
