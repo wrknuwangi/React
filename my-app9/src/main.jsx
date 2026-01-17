@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
+import Shop from './pages/Shop';
+import UserForm from './pages/UserForm';
 import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "shop",
+        element: <Shop />,
+      }, 
+      {
+        path: "user",
+        element: <UserForm />,
       }
     ]
   },

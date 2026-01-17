@@ -7,7 +7,9 @@ function App() {
         <Link to="/" style={{ marginRight: "10px", color: "#fff" }}>SignUP</Link>
         <Link to="/home" style={{ marginRight: "10px", color: "#fff" }}>Home</Link>
         <Link to="/about" style={{ marginRight: "10px", color: "#fff" }}>About</Link>
+        <Link to="/shop" style={{ marginRight: "10px", color: "#fff" }}>Shop</Link>
         <Link to="/contact" style={{ color: "#fff" }}>Contact</Link>
+        <Link to="/user" style={{ color: "#fff" }}>User Form</Link>
       </nav>
       <main style={{ padding: "40px" }}>
         <Outlet />

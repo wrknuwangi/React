@@ -2,7 +2,10 @@ function SignUp() {
     return (
         <nav>
         <h1>Sign Up Here</h1>
-        
+
+      <h1 className="text-6xl font-bold text-red-600">Tailwind Works!</h1>
+
+export default Home;
 
   
     <div >
